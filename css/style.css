@@ -1,0 +1,347 @@
+/* header styling */
+
+* {
+    margin: 0px;
+}
+
+body {
+    color: aliceblue;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: radial-gradient(ellipse at bottom, #253242, #090a0f);
+}
+
+header {
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    height: 10%;
+}
+
+.logo {
+    margin-left: 4%;
+    display: flex;
+    position: absolute;
+}
+
+.logo_img {
+    width: 18%;
+}
+
+.list_item {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Bellota", system-ui;
+
+    font-size: 1.4rem;
+    margin-right: 4%;
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+}
+
+.nav_a {
+    color: rgb(248, 245, 245);
+    text-decoration: none;
+}
+
+.nav_a:hover {
+    text-decoration: overline;
+}
+
+.nav_list {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.resume {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(35, 32, 101);
+    padding: 1px 2px 1px 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+/* about styling */
+.about {
+    margin-top: 20px;
+    background-position: left;
+    height: max-content;
+}
+
+.about_text {
+    /* font-family: "Gost Common"; */
+    font-family: "Bellota", system-ui;
+
+    align-content: center;
+    margin-top: 60px;
+    margin-left: 9%;
+    height: 400px;
+    position: absolute;
+    width: 41%;
+}
+
+.about_heading {
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 20%;
+}
+
+.my_img {
+    position: relative;
+    padding-top: 2%;
+    margin-left: 55%;
+}
+
+
+/* my about */
+
+.myabt_txt{
+
+    padding: 20px 13% 20px 13%;
+    font-size: 1.5rem;
+        font-family: "Bellota", system-ui;
+
+}
+
+/* skills styling */
+
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.skills_heading {
+    font-family: "Bellota", system-ui;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.skills_div {
+    font-family: "Bellota", system-ui;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-left: 6%;
+    width: 80%;
+    height: 150%;
+}
+
+.skills_tiles {
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 23%;
+    width: 90%;
+    height: 85%;
+}
+
+/* projects section  */
+
+
+.project_img {
+    width: 40%;
+    height: 300px;
+}
+
+.image_project {
+    display: inline;
+    margin-left: 2.5%;
+}
+
+.login_txt {
+    position: absolute;
+    margin-left: 20%;
+}
+
+.user_txt {
+    margin-left: 70%;
+}
+
+.project_desc {
+    margin: 2% 10% 0 10%;
+}
+
+
+
+.project_base {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-left: 5%;
+    width: 90%;
+    height: 20rem;
+}
+
+.project_cards {
+    border-radius: 20px;
+    margin-left: 5%;
+    height: 100%;
+    width: 90%;
+}
+
+.project_btn {
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.project_btn b a {
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.project_btn b a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+/* contact section */
+
+.linked_img {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.insta_img {
+    width: 3%;
+    margin-bottom: 1%;
+}
+
+.github_img {
+    width: 3.3%;
+    margin-bottom: .8%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+
+.contact_img {
+    text-align: right;
+}
+
+
+.contact{
+    padding-bottom: 5%;
+}
+.contact-form {
+    margin: 10%;
+}
+
+.feedback-input {
+    margin-left: 25%;
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #5e26b3;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.submit-contact {
+    margin-left: 42%;
+    width: 16%;
+    background: #3586ff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(2, 38, 67);
+    font-family: fantasy;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.1s;
+    margin-top: -4px;
+    font-weight: lighter;
+}
+
+[type="submit"]:hover {
+    background-color: rgb(2, 38, 67);
+    color: #3586ff;
+}
+
+/* footer  */
+
+.footer {
+    font-family: "Bellota", system-ui;
+    color: azure;
+    text-align: center;
+    height: 25%;
+    background: linear-gradient(180deg, #12051c 0%, #1b2d36 100%);
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    width: 100%;
+}
+
+.copyright {
+    font-size: large;
+    float: left;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.email {
+    font-size: large;
+    float: left;
+}
+s
+
+.bellota-light {
+    font-family: "Bellota", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .bellota-regular {
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bellota-bold {
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bellota-light-italic {
+    font-family: "Bellota", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .bellota-regular-italic {
+    font-family: "Bellota", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .bellota-bold-italic {
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
